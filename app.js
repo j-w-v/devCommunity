@@ -13,6 +13,16 @@ var devC = {
         {username:'KassandraSanch', picture: 'https://pbs.twimg.com/profile_images/1262134687729942529/QrYlZu35_400x400.jpg'},
         {username:'DThompsonDev', picture: 'https://pbs.twimg.com/profile_images/1222136283339853833/dr25E9Lk_400x400.jpg'},
         {username:'sarah_bean', picture: 'https://pbs.twimg.com/profile_images/1276195257424637952/I0Yc3NCp_400x400.jpg'},
+        {username:'themarcba', picture: 'https://pbs.twimg.com/profile_images/1264809105572724738/L5In8y7l_400x400.jpg'},
+        {username:'AnnaJMcDougall', picture: 'https://pbs.twimg.com/profile_images/1266289667550244864/21tqeJlJ_400x400.jpg'},
+        {username:'rafrasenberg', picture: 'https://pbs.twimg.com/profile_images/1263763108302139393/XNllStIX_400x400.jpg'},
+        {username:'RiaCorpeno', picture: 'https://pbs.twimg.com/profile_images/1304568532785664001/1JTyXdtL_400x400.jpg'},
+        {username:'devinDford', picture: 'https://pbs.twimg.com/profile_images/1274250807475666946/iEyHtqfr_400x400.jpg'},
+        {username:'ania_kubow', picture: 'https://pbs.twimg.com/profile_images/1253272214176256006/lIrqCUI7_400x400.jpg'},
+        {username:'florinpop1705', picture: 'https://pbs.twimg.com/profile_images/595659104384905218/bOtXKmdP_400x400.jpg'},
+        {username:'dannysteenman', picture: 'https://pbs.twimg.com/profile_images/1302692919833432066/aLCbCelH_400x400.jpg'},
+        {username:'BlakieCodes', picture: 'https://pbs.twimg.com/profile_images/1286083264541728768/M9LCwzMk_400x400.jpg'},
+        {username:'flaviocopes', picture: 'https://pbs.twimg.com/profile_images/1084880084090146819/uFLTp7C1_400x400.jpg'},
   
   ],
       devArea: document.getElementById('devArea'),
@@ -31,7 +41,10 @@ var devC = {
         <img src="${item.picture}" class="rounded-lg w-20"alt="">
         <p class="ml-4 font-bold">@${item.username}</p>
           </div>
-        <a href="https://twitter.com/${item.username}" target="_blank"><button class="mt-4 text-lg w-full rounded-md bg-gray-400 text-gray-300 hover:bg-gray-500 text-gray-800">Follow</button></a>
+        <a href="https://twitter.com/${item.username}" target="_blank">
+        <button class="mt-4 text-lg w-full rounded-md bg-gray-400 text-gray-300 hover:bg-gray-500 text-gray-600
+        font-semibold">Follow</button>
+        </a>
       </div>`
         devC.cache.devArea.innerHTML += template;
       })
