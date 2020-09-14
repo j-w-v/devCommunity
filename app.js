@@ -26,7 +26,7 @@ var devC = {
   },
     applyDevs: function(){
       devC.cache.devs.forEach(function(item){
-        var template = `<div class="w-1/6 mr-1 mb-1 border-2 border-gray-400 border-solid rounded-md p-3">
+        var template = `<div class=" w-full lg:w-1/6  mr-1 mb-1 border-2 border-gray-400 border-solid rounded-md p-3">
         <div class="flex">
         <img src="${item.picture}" class="rounded-lg w-20"alt="">
         <p class="ml-4 font-bold">@${item.username}</p>
