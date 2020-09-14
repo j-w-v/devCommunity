@@ -37,6 +37,7 @@ var devC = {
         {username:'chrisoncode', picture: 'https://pbs.twimg.com/profile_images/1273771527293538304/gytymTwZ_400x400.jpg'},
         {username:'towernter', picture: 'https://pbs.twimg.com/profile_images/1259743282655105024/SgPjh0Dg_400x400.jpg'},
         {username:'adamwathan', picture: 'https://pbs.twimg.com/profile_images/887661330832003072/Zp6rA_e2_400x400.jpg'},
+        {username:'accolades_dev', picture: 'https://pbs.twimg.com/profile_images/1304452357187604490/ek7nIX_b_400x400.jpg'},
 
   
   ],
